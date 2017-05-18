@@ -6,4 +6,3 @@ node_name "admin"
 client_key "#{current_dir}/admin.pem" 
 chef_server_url "https://chefnode1.devopsatmecs.com/organizations/atmecs"
 cookbook_path            ["#{current_dir}/../cookbooks"]
-#ssl_verify_mode	:verify_none
